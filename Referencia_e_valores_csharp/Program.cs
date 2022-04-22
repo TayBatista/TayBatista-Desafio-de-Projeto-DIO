@@ -29,7 +29,7 @@ namespace Aula_pratica
             p1.Documento = "123.456.789-00";
             p1.Idade = 20;
 
-            Pessoa p2 = p1;
+            Pessoa p2 = p1.Clone();           
 
             TrocarNome(p1, "Maria");
 
