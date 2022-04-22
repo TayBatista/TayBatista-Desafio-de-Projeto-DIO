@@ -36,9 +36,10 @@ namespace Aula_pratica
             p1.Nome = NomeNovo;
         }
 
-        static void TrocarNome(StructPessoa p1, string NomeNovo)
+        static StructPessoa TrocarNome(StructPessoa p1, string NomeNovo)
         {
             p1.Nome = NomeNovo;
+            return p1;
         }
         public static void Main()
         {
@@ -51,10 +52,11 @@ namespace Aula_pratica
 
             var p2 = p1;
 
-            TrocarNome(p1, "Mario");
+            p1 = TrocarNome(p1, "Mario");
 
-            WriteLine($@"O nome de p1 é: {p1.Nome}
-            O nome de p2 é: {p2.Nome}"
+            WriteLine($@"
+                O nome de p1 é: {p1.Nome}
+                O nome de p2 é: {p2.Nome}"
             );
         }
     }
