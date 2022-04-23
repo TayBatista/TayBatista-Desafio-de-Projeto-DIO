@@ -1,0 +1,5 @@
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\modulo_3\obj\Debug\net5.0\modulo_3.csproj.AssemblyReference.cache
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\modulo_3\obj\Debug\net5.0\modulo_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\modulo_3\obj\Debug\net5.0\modulo_3.AssemblyInfoInputs.cache
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\modulo_3\obj\Debug\net5.0\modulo_3.AssemblyInfo.cs
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\modulo_3\obj\Debug\net5.0\modulo_3.csproj.CoreCompileInputs.cache
