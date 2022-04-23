@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System.Collections.Generic;
+using static System.Console;
 
 
 namespace Aula_pratica
@@ -114,9 +115,42 @@ namespace Aula_pratica
             }
             return -1;
         }
+
+        static bool EncontrarPessoa(List<StructPessoa> pessoas, StructPessoa pessoa)
+        {
+            foreach (var p in pessoas)
+            {
+                if (p.Equals(pessoa))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         public static void Main()
         {
+            List<StructPessoa> pessoas = new List<StructPessoa>()
+            {
+                new StructPessoa(){Nome = "Ricardo"},
+                new StructPessoa(){Nome = "Maria"},
+                new StructPessoa(){Nome = "José"},
+                new StructPessoa(){Nome = "Eduardo"},
+                new StructPessoa(){Nome = "Fabiana"}
+            };
 
+            WriteLine("Digite o nome que deseja encontrar:");
+            var nome = ReadLine();
+            var pessoa = new StructPessoa() { Nome = nome };
+            var encontrado = EncontrarPessoa(pessoas, pessoa);
+
+            if (encontrado)
+            {
+                WriteLine($"O nome {nome} foi encontrado");
+            }
+            else
+            {
+                WriteLine($"O nome {nome} não foi encontrado");
+            }
         }
     }
 }
