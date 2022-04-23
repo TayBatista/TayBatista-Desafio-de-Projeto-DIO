@@ -1,0 +1,16 @@
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.csproj.AssemblyReference.cache
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.AssemblyInfoInputs.cache
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.AssemblyInfo.cs
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.csproj.CoreCompileInputs.cache
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.exe
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.deps.json
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.runtimeconfig.json
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.runtimeconfig.dev.json
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.dll
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\ref\Demos.dll
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\bin\Debug\net5.0\Demos.pdb
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.dll
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\ref\Demos.dll
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.pdb
+C:\Digital Inovation - Projetos\Referencia_e_valores_csharp\módulo 2\obj\Debug\net5.0\Demos.genruntimeconfig.cache
