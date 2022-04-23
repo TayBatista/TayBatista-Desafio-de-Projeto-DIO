@@ -12,7 +12,7 @@ namespace Aula_pratica
 
             WriteLine($"O valor da variável A é: {a}");
         }
-        static int Adicionar20(int x)
+        static int Adicionar20(int x)//demo1
         {
             return x + 20;
         }
@@ -31,17 +31,12 @@ namespace Aula_pratica
             WriteLine($"O nome de p1 é: {p1.Nome}");
             WriteLine($"O nome de p2 é: {p2.Nome}");
         }
-        static void TrocarNome(Pessoa p1, string NomeNovo)
+        static void TrocarNome(Pessoa p1, string NomeNovo)//demo2
         {
             p1.Nome = NomeNovo;
         }
 
-        static StructPessoa TrocarNome(StructPessoa p1, string NomeNovo)
-        {
-            p1.Nome = NomeNovo;
-            return p1;
-        }
-        public static void Main()
+        static void Demo3()
         {
             StructPessoa p1 = new StructPessoa
             {
@@ -58,6 +53,30 @@ namespace Aula_pratica
                 O nome de p1 é: {p1.Nome}
                 O nome de p2 é: {p2.Nome}"
             );
+        }
+        static StructPessoa TrocarNome(StructPessoa p1, string NomeNovo)//demo3
+        {
+            p1.Nome = NomeNovo;
+            return p1;
+        }
+
+        static void Demo4()
+        {
+            string nome = "Ricardo";
+
+            TrocarNome(nome, "José");
+
+            WriteLine($"O novo nome é: {nome}");
+        }
+        static void TrocarNome(string nome, string nomeNovo)//demo4
+        {
+            nome = nomeNovo;
+        }
+        public static void Main()
+        {
+           
+
+
         }
     }
 }
