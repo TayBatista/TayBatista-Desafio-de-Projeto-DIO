@@ -59,7 +59,6 @@ namespace Aula_pratica
             p1.Nome = NomeNovo;
             return p1;
         }
-
         static void Demo4()
         {
             string nome = "Ricardo";
@@ -72,10 +71,51 @@ namespace Aula_pratica
         {
             nome = nomeNovo;
         }
+        static void demo5()
+        {
+            int[] pares = new int[] { 0, 2, 4, 6, 8 };
+
+            MudarparaImpar(pares);
+
+            WriteLine($"Os ímpares {string.Join(",", pares)}");
+        }
+        static void MudarparaImpar(int[] pares)//demo5
+        {
+            for (int i = 0; i < pares.Length; i++)
+            {
+                pares[i] = pares[i] + 1;
+            }
+        }
+
+        static void Demo6()
+        {
+            int[] numeros = new int[] { 0, 2, 4, 6, 8 };
+            WriteLine($"Digite o número que gostaria de encontrar");
+            var numero = int.Parse(ReadLine());
+            var idxEncontrado = EncontrarNumero(numeros, numero);
+
+            if (idxEncontrado >= 0)
+            {
+                WriteLine($"O número digitado está na posição {idxEncontrado}");
+            }
+            else
+            {
+                WriteLine($"O número digitado não foi encontrado");
+            }
+        }
+        static int EncontrarNumero(int[] numeros, int numero)//demo6
+        {
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                if (numeros[i] == numero)
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
         public static void Main()
         {
-           
-
 
         }
     }
